@@ -1,0 +1,5 @@
+import { unstable_createRoot } from "react-dom";
+import Root from "./Root.client";
+
+const root = unstable_createRoot(document.getElementById("root"));
+root.render(<Root />);
