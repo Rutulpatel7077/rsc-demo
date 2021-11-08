@@ -4,10 +4,9 @@ import Note from './Note';
 
 
 export default function NoteList({searchText}) {
-  // const notes = fetch('http://localhost:4000/notes').json();
-
   const notes = searchNotes(searchText);
 
+  // const notes = fetch('http://localhost:4000/notes').json();
   // Now let's see how the Suspense boundary above lets us not block on this.
   // fetch('http://localhost:4000/sleep/3000');
 

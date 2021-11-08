@@ -331,6 +331,12 @@ ul.notes-list {
   animation-duration: 0.6s;
 }
 
+.footer-red {
+   color: red;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
 .sidebar-note-open {
   position: absolute;
   top: 0;

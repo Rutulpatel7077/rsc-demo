@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import NoteList from "./NoteList.server";
 import SearchField from "./SearchField.client";
 import NoteListSkeleton from "./HelperComponents/NoteListSkeleton";
-import Footer from "./Footer.server";
+import Footer from "./Footer.client";
 // import Button from "./Button.client";
 
 export default function App({ searchText }) {
