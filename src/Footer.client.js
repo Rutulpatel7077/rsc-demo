@@ -1,12 +1,13 @@
-import _ from "lodash";
+import * as _ from "lodash";
 
-export default function Footer() {
-  const data = ["Fun", "Love", "Respect", "React", "REDSpace"];
-  const pickOne = _.random(0, 4);
+const Footer = () => {
+  const text = _.capitalize("love");
 
   return (
     <footer className="footer">
-      Made with <p className="footer-red">{data[pickOne]}</p> in Halifax
+      Made with <p className="footer-red">{text}</p> in Halifax
     </footer>
   );
-}
+};
+
+export default Footer;

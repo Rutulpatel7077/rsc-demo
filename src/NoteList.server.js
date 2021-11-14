@@ -1,10 +1,10 @@
 import {fetch} from 'react-fetch';
-import {searchNotes} from './db.server';
+import * as db from './db.server';
 import Note from './Note';
 
 
 export default function NoteList({searchText}) {
-  const notes = searchNotes(searchText);
+  const notes = db.searchNotes(searchText);
 
   // const notes = fetch('http://localhost:4000/notes').json();
   // Now let's see how the Suspense boundary above lets us not block on this.

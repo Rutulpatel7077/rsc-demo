@@ -6,8 +6,8 @@ export default function SearchField() {
   const [, setAppState] = useAppState();
 
   useEffect(() => {
-    setAppState((loc) => ({
-      ...loc,
+    setAppState((state) => ({
+      ...state,
       searchText: text,
     }));
   }, [text]);

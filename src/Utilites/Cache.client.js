@@ -20,7 +20,7 @@ export function useServerResponse(appState) {
     return response;
   }
   response = createFromFetch(
-    fetch('/react?location=' + encodeURIComponent(key))
+    fetch('/react?appState=' + encodeURIComponent(key))
   );
   cache.set(key, response);
   return response;
