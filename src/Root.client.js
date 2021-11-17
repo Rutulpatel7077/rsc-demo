@@ -1,8 +1,8 @@
 import { useState, Suspense } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 
-import { useServerResponse } from "./Utilites/Cache.client";
-import { AppStateContext } from "./Utilites/AppStateContext.client";
+import { useServerResponse } from "./Utilities/Cache.client";
+import { AppStateContext } from "./Utilities/AppStateContext.client";
 
 export default function Root() {
   return (

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAppState } from "./Utilites/AppStateContext.client";
+import { useAppState } from "./Utilities/AppStateContext.client";
 
 export default function SearchField() {
   const [text, setText] = useState("");
